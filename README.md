@@ -16,3 +16,13 @@ If one bird is aggressive and the other is passive, the passive bird will flee a
 When both birds are aggressive, they will fight. One bird (chosen randomly) will win, and they will get the food. The loser instead is injured, reducing their health.
 
 We will be modeling several types of birds. We’ll begin with hawks and doves. Hawks will always be aggressive, while doves will always be passive. Once we have that simulation working correctly, we’ll add other types of birds. Along the way we’ll get a bunch of interesting results.
+
+2. Cipher
+
+Three encryption schemes, each consisting of two algorithms. The first is the encryption algorithm. It takes two inputs, the plaintext, which is the readable text we want to encrypt, and the key, which is some piece of secret information that we need to do the encryption. The output of the encryption algorithm is called the ciphertext, and it is the encrypted message, supposedly unreadable by an adversary. The second algorithm is the decryption algorithm. It takes as input a ciphertext and a key. If the key is the same key that was used to create the ciphertext, then the decryption algorithm should output the original plaintext.
+
+There are also algorithms for breaking a given encryption system. A break (or attack) is an algorithm that can recover the plaintext from a ciphertext without knowledge of the secret key.
+
+* A working Caesar cipher
+* A working Vigenère cipher
+* A working substitution cipher
