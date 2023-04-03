@@ -26,3 +26,7 @@ There are also algorithms for breaking a given encryption system. A break (or at
 * A working Caesar cipher
 * A working Vigenère cipher
 * A working substitution cipher
+
+3. Dice game algorithm and strategy
+
+The scripts autoplayloud.py, manygames.py and mystrategy.py are parts of a project to write  a program that allows two players to play it against each other. Autoplay helps computer players play the game against each other automatically, manygames figure out how good different computer players are, and mystrategy is used to compete against other players.
